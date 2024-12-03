@@ -6,15 +6,21 @@ void setup() {
 
 
 //🟢Draw Procedure - Runs on Repeat
-void draw(){
-  fill(255,255,255);
-  strokeWeight(3);
+void draw(){  
 
-  //💡⬇️⬇️⬇️💡 Your Code For This Unit Goes Here
+//💡⬇️⬇️⬇️💡 Your Code For This Unit Goes Here
+   fill(10,100,40)
+  stroke(0,0,0,0)
+  rect(1,300,800,300)
+ 
+ fill(255,255,255);
+  strokeWeight(3);
+  stroke(0,0,0)
   ellipse(200, 300, 150, 150);
   ellipse(200, 200, 100, 100);
   ellipse(200, 120, 75, 75);
   
+
 
 }
 
